@@ -1,11 +1,11 @@
-#!/usr/bin/python3
+#!/usr/bin/pytho
 '''Module for Base class.'''
 
-class Base :
-    '''A representation of ...'''
+class Base:
     __nb_objects = 0
-    def __innit__(self, id=None):
-        '''constructor.'''
+    
+    def __init__(self, id=None):
+        '''Constructor'''
         if id is not None:
             self.id = id 
         else:
